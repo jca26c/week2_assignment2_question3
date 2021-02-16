@@ -18,12 +18,6 @@
      var url = "https://raw.githubusercontent.com/gbrunner/Advanced_Python_for_GIS_and_RS/master/Week%202/stl_crime_wgs_84.csv";
      esriConfig.request.corsEnabledServers.push('https://rawgit.com');
 
-      // Paste the url into a browser's address bar to download and view the attributes
-      // in the CSV file. These attributes include:
-      // * mag - magnitude
-      // * type - earthquake or other event such as nuclear test
-      // * place - location of the event
-      // * time - the time of the event
 
 const template = {
    title: "Crime committed at {ILEADSStreet}"
